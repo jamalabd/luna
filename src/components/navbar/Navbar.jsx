@@ -1,17 +1,10 @@
-import Link from "next/link"
+import Links from "@/components/navbar/links/Links"
 
 const  Navbar = ()=> {
   return (
     <>
       <div> Logo </div>
-      <div> 
-       <Link href="/"> Home </Link>
-       <Link href="/about"> About </Link> 
-       <Link href="/contact"> Contact </Link> 
-       <Link href="/blog"> Blog </Link>
-       <Link href="/login"> Login </Link>
-      </div>
-
+     <Links /> 
     </>
 
 
